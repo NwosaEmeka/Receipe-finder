@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: darkseagreen;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2,
+p {
+	margin: 1.1rem 0;
+}
+.errmsg {
+	background-color: #d37c7ce0;
+	padding: 8px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-top: 10px;
+	color: #fff;
+	border-radius: 5px;
+	display: block;
+}
+.description_header {
+	text-align: center;
+	color: #f4f4f4;
+	margin: 1.2em 0;
+}
+.form-element {
+	text-align: center;
+	height: auto;
+	margin: 15px 0 20px;
+}
+input {
+	height: 40px;
+	padding: 10px 20px;
+}
+input[type="text"] {
+	width: 55%;
+}
+.btn {
+	background-color: seagreen;
+	color: #fff;
+	transition: transform 750ms ease-in-out;
+}
+.btn_submit {
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+.btn-readMore {
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.btn:hover {
+	background-color: mediumseagreen;
+	transform: scale(1.1);
+}
+
+.recipes {
+	width: 95%;
+	margin: 15px auto 35px auto;
+	padding: 15px;
+	display: grid;
+	height: auto;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.recipe-items {
+	width: auto;
+	padding: 1em;
+	background: #cfbfbf;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.recipe-items h2,
+h3 {
+	text-align: center;
+}
+.recipe_image {
+	width: 50%;
+	height: 150px;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+}
+.recipe-ingridients {
+	padding: 15px;
+}
+li {
+	margin-bottom: 3px;
+}
+.info {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.badge {
+	margin-bottom: 10px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
